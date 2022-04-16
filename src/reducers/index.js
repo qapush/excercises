@@ -1,7 +1,13 @@
 const initialState = {
     heroes: [],
     heroesLoadingStatus: 'idle',
-    filters: []
+    elements: {
+        'wind': 'Ветер',
+        'fire': 'Огонь',
+        'earth': 'Земля',
+        'water': 'Вода'
+    },
+    filtersApplied: [],
 }
 
 const reducer = (state = initialState, action) => {
@@ -21,6 +27,11 @@ const reducer = (state = initialState, action) => {
             return {
                 ...state,
                 heroesLoadingStatus: 'error'
+            }
+        case 'HEROES_ADD':
+            return {
+                ...state,
+                heroes: [...state.heroes, action.payload]
             }
         default: return state
     }

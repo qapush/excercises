@@ -10,9 +10,60 @@
 // Элементы <option></option> желательно сформировать на базе
 // данных из фильтров
 
+import { useReducer } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import useHeroes from '../../hooks/heroes.hook';
+import { v4 as uid } from 'uuid';
+
+const initialState = {
+    id: '',
+    name: '',
+    description: '',
+    element: ''
+}
+
+const reducer = (state, action) => {
+    switch (action.type) {
+        case 'reset':
+            return {
+                ...initialState
+            }
+        default:
+            const { field, value } = action;
+            return {
+                ...state,
+                [field]: value
+            }
+    }
+}
+
 const HeroesAddForm = () => {
+
+    const [state, dispatch] = useReducer(reducer, initialState);
+    const id = uid();
+    const { addHero } = useHeroes();
+    
+    const onChange = (e) => {
+        dispatch({
+            field: e.target.name,
+            value: e.target.value
+        })
+    }
+
+    const onSubmit = (e) => {
+        e.preventDefault();
+        const hero = { ...state, id };
+        addHero(hero);
+    }
+
+    const { elements } = useSelector(state => state)
+
+    const options = Object.keys(elements).map( (option, id) => {
+        return <option key={id} value={option}>{ elements[option] }</option>
+    } )
+
     return (
-        <form className="border p-4 shadow-lg rounded">
+        <form className="border p-4 shadow-lg rounded" onSubmit={onSubmit}>
             <div className="mb-3">
                 <label htmlFor="name" className="form-label fs-4">Имя нового героя</label>
                 <input 
@@ -21,17 +72,22 @@ const HeroesAddForm = () => {
                     name="name" 
                     className="form-control" 
                     id="name" 
-                    placeholder="Как меня зовут?"/>
+                    placeholder="Как меня зовут?"
+                    value={state.name}
+                    onChange={onChange}
+                />
             </div>
 
             <div className="mb-3">
                 <label htmlFor="text" className="form-label fs-4">Описание</label>
                 <textarea
                     required
-                    name="text" 
+                    name="description" 
                     className="form-control" 
                     id="text" 
                     placeholder="Что я умею?"
+                    value={state.description}
+                    onChange={onChange}
                     style={{"height": '130px'}}/>
             </div>
 
@@ -41,16 +97,19 @@ const HeroesAddForm = () => {
                     required
                     className="form-select" 
                     id="element" 
-                    name="element">
-                    <option >Я владею элементом...</option>
-                    <option value="fire">Огонь</option>
-                    <option value="water">Вода</option>
-                    <option value="wind">Ветер</option>
-                    <option value="earth">Земля</option>
+                    name="element"
+                    placeholder={<div>Type to search</div>}
+                    value={state.element}
+                    onChange={onChange}
+                >
+                    { options }
                 </select>
             </div>
 
-            <button type="submit" className="btn btn-primary">Создать</button>
+            <button
+                type="submit"
+                className="btn btn-primary"
+            >Создать</button>
         </form>
     )
 }
