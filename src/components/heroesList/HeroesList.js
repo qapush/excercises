@@ -14,13 +14,20 @@ import Spinner from '../spinner/Spinner';
 
 const HeroesList = () => {
 
-    const { refreshHeroes, deleteHero } = useHeroes();
-    const { heroes, heroesLoadingStatus } = useSelector(state => state);
-    console.log(heroesLoadingStatus);
-    console.log(heroes);
+    const filteredHeroes = useSelector(state => {
+        if (state.appliedFilter === 'all') {
+            return state.heroes;
+        } else { 
+            return state.heroes.filter(item => item.element === state.appliedFilter);
+        }
+    })
+    const { refreshHeroes, deleteHero, fetchFilters } = useHeroes();
+    const heroesLoadingStatus = useSelector(state => state.heroesLoadingStatus);
+
 
     useEffect(() => {
         refreshHeroes();
+        fetchFilters();
                 // eslint-disable-next-line
     }, []);
 
@@ -45,7 +52,7 @@ const HeroesList = () => {
         })
     }
 
-    const elements = renderHeroesList(heroes);
+    const elements = renderHeroesList(filteredHeroes);
     return (
         <ul>
             {elements}

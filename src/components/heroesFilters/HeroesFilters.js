@@ -6,17 +6,31 @@
 // Изменять json-файл для удобства МОЖНО!
 // Представьте, что вы попросили бэкенд-разработчика об этом
 
+import { useSelector, useDispatch } from "react-redux";
+import { filtersChange } from "../../actions";
+
 const HeroesFilters = () => {
+
+    const { filters, appliedFilter } = useSelector(state => state);
+    
+    const dispatch = useDispatch();
+
+    const buttons = filters.map((item, id) => {
+        const activeClass = appliedFilter === item.name ? ' active' : '';
+        return <button
+            key={id}
+            className={'btn ' + item.class + activeClass}
+            onClick = { () => dispatch(filtersChange(item.name)) }
+        >{item.label}</button>
+        }
+    )
+
     return (
         <div className="card shadow-lg mt-4">
             <div className="card-body">
                 <p className="card-text">Отфильтруйте героев по элементам</p>
                 <div className="btn-group">
-                    <button className="btn btn-outline-dark active">Все</button>
-                    <button className="btn btn-danger">Огонь</button>
-                    <button className="btn btn-primary">Вода</button>
-                    <button className="btn btn-success">Ветер</button>
-                    <button className="btn btn-secondary">Земля</button>
+                    {buttons}
                 </div>
             </div>
         </div>

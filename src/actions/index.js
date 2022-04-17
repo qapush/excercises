@@ -23,3 +23,29 @@ export const heroesAdd = (hero) => {
         payload: hero
     }
 }
+export const heroesDelete = (id) => {
+    return {
+        type: 'HEROES_DELETE',
+        payload: id
+    }
+}
+
+export const filtersFetched = (heroes) => {
+    return {
+        type: 'FILTERS_FETCHED',
+        payload: heroes
+    }
+}
+
+export const filtersFetchingError = () => {
+    return {
+        type: 'FILTERS_FETCHING_ERROR'
+    }
+}
+
+export const filtersChange = (filter) => {
+    return {
+        type: 'FILTERS_CHANGE',
+        payload: filter
+    }
+}

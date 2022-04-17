@@ -11,7 +11,7 @@
 // данных из фильтров
 
 import { useReducer } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 import useHeroes from '../../hooks/heroes.hook';
 import { v4 as uid } from 'uuid';
 
@@ -54,12 +54,13 @@ const HeroesAddForm = () => {
         e.preventDefault();
         const hero = { ...state, id };
         addHero(hero);
+        dispatch({ type: 'reset' });
     }
 
-    const { elements } = useSelector(state => state)
+    const { filters } = useSelector(state => state)
 
-    const options = Object.keys(elements).map( (option, id) => {
-        return <option key={id} value={option}>{ elements[option] }</option>
+    const options = filters.map( (option, id) => {
+        if(option.name !== 'all') return <option key={id} value={option.name}>{ option.label }</option>
     } )
 
     return (
@@ -102,6 +103,7 @@ const HeroesAddForm = () => {
                     value={state.element}
                     onChange={onChange}
                 >
+                    <option value=''>Я владею элементом...</option>
                     { options }
                 </select>
             </div>
