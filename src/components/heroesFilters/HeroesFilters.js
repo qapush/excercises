@@ -11,7 +11,7 @@ import { filtersChange } from "../../actions";
 
 const HeroesFilters = () => {
 
-    const { filters, appliedFilter } = useSelector(state => state);
+    const { filters, appliedFilter } = useSelector(state => state.filters);
     
     const dispatch = useDispatch();
 

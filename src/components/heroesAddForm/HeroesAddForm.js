@@ -57,7 +57,7 @@ const HeroesAddForm = () => {
         dispatch({ type: 'reset' });
     }
 
-    const { filters } = useSelector(state => state)
+    const { filters } = useSelector(state => state.filters)
 
     const options = filters.map( (option, id) => {
         if(option.name !== 'all') return <option key={id} value={option.name}>{ option.label }</option>
