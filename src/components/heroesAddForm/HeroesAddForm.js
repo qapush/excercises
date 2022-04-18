@@ -57,11 +57,21 @@ const HeroesAddForm = () => {
         dispatch({ type: 'reset' });
     }
 
-    const { filters } = useSelector(state => state.filters)
+    const filters  = useSelector(state => state.filters.filters)
 
-    const options = filters.map( (option, id) => {
-        if(option.name !== 'all') return <option key={id} value={option.name}>{ option.label }</option>
-    } )
+    const renderOptions = () => {
+        if (filters) {
+            const selectable = filters.map( (option, id) => {
+                if(option.name !== 'all') return <option key={id} value={option.name}>{ option.label }</option>
+            })
+            console.log(selectable)
+            return selectable
+        } else {
+            return null
+        }
+    }
+
+    const options = renderOptions();
 
     return (
         <form className="border p-4 shadow-lg rounded" onSubmit={onSubmit}>
@@ -99,11 +109,10 @@ const HeroesAddForm = () => {
                     className="form-select" 
                     id="element" 
                     name="element"
-                    placeholder={<div>Type to search</div>}
                     value={state.element}
                     onChange={onChange}
                 >
-                    <option value=''>Я владею элементом...</option>
+                    { options ? <option value=''>Я владею элементом...</option> : null}
                     { options }
                 </select>
             </div>

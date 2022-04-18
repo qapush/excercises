@@ -1,6 +1,6 @@
 import { useHttp } from "./http.hook";
 import { useDispatch } from 'react-redux';
-import { heroesFetching, heroesFetched, heroesFetchingError, filtersFetched, filtersFetchingError, heroesDelete, heroesAdd } from '../actions';
+import { filtersFetching, heroesFetching, heroesFetched, heroesFetchingError, filtersFetched, filtersFetchingError, heroesDelete, heroesAdd } from '../actions';
 import { useCallback } from "react";
 
 
@@ -10,14 +10,15 @@ const useHeroes = () => {
     const dispatch = useDispatch();
 
     const refreshHeroes = useCallback(() => {
-        dispatch(heroesFetching());
+        // dispatch(heroesFetching());
+        dispatch(heroesFetching);
         request("http://localhost:3001/heroes")
             .then(data => dispatch(heroesFetched(data)))
             .catch(() => dispatch(heroesFetchingError()))
     }, [request]);
 
     const fetchFilters = () => {
-        dispatch(heroesFetching());
+        dispatch(filtersFetching());
         request("http://localhost:3001/filters")
             .then(data => dispatch(filtersFetched(data)))
             .catch(() => dispatch(filtersFetchingError()))

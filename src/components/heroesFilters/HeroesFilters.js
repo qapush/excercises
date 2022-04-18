@@ -15,15 +15,21 @@ const HeroesFilters = () => {
     
     const dispatch = useDispatch();
 
-    const buttons = filters.map((item, id) => {
-        const activeClass = appliedFilter === item.name ? ' active' : '';
-        return <button
-            key={id}
-            className={'btn ' + item.class + activeClass}
-            onClick = { () => dispatch(filtersChange(item.name)) }
-        >{item.label}</button>
-        }
-    )
+    const renderButtons = () => {
+        if (filters) {
+            return filters.map((item, id) => {
+                const activeClass = appliedFilter === item.name ? ' active' : '';
+                return <button
+                    key={id}
+                    className={'btn ' + item.class + activeClass}
+                    onClick={() => dispatch(filtersChange(item.name))}
+                >
+                    {item.label}</button>
+            })
+            }
+    }
+    
+    const buttons = renderButtons()
 
     return (
         <div className="card shadow-lg mt-4">
