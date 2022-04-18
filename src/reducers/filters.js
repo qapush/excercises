@@ -1,7 +1,7 @@
 const initialState = {
     filters: [],
     filtersLoadingStatus: 'idle',
-    appliedFilter: 'all'
+    activeFilter: 'all'
 }
 
 const filters = (state = initialState, action) => {
@@ -9,8 +9,7 @@ const filters = (state = initialState, action) => {
         case 'FILTERS_FETCHING':
             return {
                 ...state,
-                filters: action.payload,
-                filtersLoadingStatus: 'fetching'
+                filtersLoadingStatus: 'loading'
             }
         case 'FILTERS_FETCHED':
             return {
@@ -23,11 +22,10 @@ const filters = (state = initialState, action) => {
                 ...state,
                 filtersLoadingStatus: 'error'
             }
-        case 'FILTERS_CHANGE':          
-
+        case 'ACTIVE_FILTER_CHANGED':
             return {
                 ...state,
-                appliedFilter: action.payload
+                activeFilter: action.payload
             }
         default: return state
     }

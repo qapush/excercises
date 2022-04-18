@@ -1,6 +1,12 @@
 {
   "heroes": [
     {
+      "id": 1,
+      "name": "Первый герой",
+      "description": "Первый герой в рейтинге!",
+      "element": "fire"
+    },
+    {
       "id": 2,
       "name": "Неизвестный герой",
       "description": "Скрывающийся в тени",
@@ -11,63 +17,33 @@
       "name": "Морской герой",
       "description": "Как аквамен, но не из DC",
       "element": "water"
-    },
-    {
-      "id": "5241173b-2109-44e8-a71b-38bb2a13425d",
-      "name": "Qapush",
-      "description": "Being funny",
-      "element": "earth"
-    },
-    {
-      "id": "cee7cc4e-12c7-4515-b1bf-c241c38ac34b",
-      "name": "Michał Kapush",
-      "description": "dance",
-      "element": "fire"
-    },
-    {
-      "id": "6ec89b88-b7e9-44da-ad7e-362b95e3e576",
-      "name": "sdsd",
-      "description": "wdw",
-      "element": "fire"
-    },
-    {
-      "id": "00f3b6b9-fd24-410f-afc7-e618e66891c1",
-      "name": "sddsd",
-      "description": "sdsd",
-      "element": "wind"
-    },
-    {
-      "id": "740170fb-6f55-425b-901c-5ecf428fe606",
-      "name": "aa",
-      "description": "aa",
-      "element": "water"
     }
   ],
   "filters": [
     {
       "name": "all",
       "label": "Все",
-      "class": "btn btn-outline-dark"
+      "className": "btn-outline-dark"
     },
     {
       "name": "fire",
       "label": "Огонь",
-      "class": "btn btn-outline-danger"
+      "className": "btn-danger"
     },
     {
       "name": "water",
       "label": "Вода",
-      "class": "btn btn btn-outline-primary"
+      "className": "btn-primary"
     },
     {
       "name": "wind",
       "label": "Ветер",
-      "class": "btn btn btn-outline-success"
+      "className": "btn-success"
     },
     {
       "name": "earth",
       "label": "Земля",
-      "class": "btn btn btn-outline-secondary"
+      "className": "btn-secondary"
     }
   ]
 }

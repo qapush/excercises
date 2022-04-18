@@ -21,16 +21,15 @@ const heroes = (state = initialState, action) => {
                 ...state,
                 heroesLoadingStatus: 'error'
             }
-        case 'HEROES_ADD':
+        case 'HERO_CREATED':
             return {
                 ...state,
                 heroes: [...state.heroes, action.payload]
             }
-        case 'HEROES_DELETE':
-            const heroes = state.heroes.filter(item => item.id !== action.payload)
+        case 'HERO_DELETED': 
             return {
                 ...state,
-                heroes: [...heroes]
+                heroes: state.heroes.filter(item => item.id !== action.payload)
             }
         default: return state
     }
