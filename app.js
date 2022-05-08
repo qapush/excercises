@@ -1,44 +1,18 @@
-const alphabet = {
-    A: 'N',
-    B: 'O',
-    C: 'P',
-    D: 'Q',
-    E: 'R',
-    F: 'S',
-    G: 'T',
-    H: 'U',
-    I: 'V',
-    J: 'W',
-    K: 'X',
-    L: 'Y',
-    M: 'Z',
-    N: 'A',
-    O: 'B',
-    P: 'C',
-    Q: 'D',
-    R: 'E',
-    S: 'F',
-    T: 'G',
-    U: 'H',
-    V: 'I',
-    W: 'J',
-    X: 'K',
-    Y: 'L',
-    Z: 'M'
-
+function telephoneCheck(str) {
+    const splitRegex = /[^\d\(\)]/
+    const clearedString = str.split(splitRegex)
+        .join('')
+    console.log(clearedString)
+    const reg = //
+    // console.log(reg.test(clearedString))
+    // return reg.test(clearedString);
 }
-
-function rot13(str) {
-    
-    let result = '';
-
-    for (let i = 0; i < str.length; i++) {
-        result += /[A-Z]/.test(str[i]) ? alphabet[str[i]] : str[i];
-    }
-
-    console.log(result);
-
-    return result;
-  }
   
-  rot13("SERR CVMMN!");
+// telephoneCheck("1 555-555-5555")
+// telephoneCheck("555-555-5555");
+// telephoneCheck("123**&!!asdf#")
+// telephoneCheck("1(555)555-5555")
+
+telephoneCheck("2 (757) 622-7382")
+telephoneCheck("(6054756961)")
+telephoneCheck("1 555-555-5555")
