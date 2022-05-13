@@ -1,21 +1,34 @@
-// lettersum("") => 0
-// lettersum("a") => 1
-// lettersum("z") => 26
-// lettersum("cab") => 6
-// lettersum("excellent") => 100
-// lettersum("microspectrophotometries") => 317
+function SeriesSum(n)
+{
+  // Happy Coding ^_^
+  
+  let result = 0;
 
-function lettersum(text){
-    const az = 'abcdefghijklmnopqrstuvwxyz';
-    
-    let sum = 0;
+  if (n == 0) {
+    return result.toFixed(2)
+  } else if (n == 1) {
+    result = 1;
+    return result.toFixed(2)
+  }
 
-    for (let i = 0; i < text.length; i++) {
-        sum += az.indexOf(text[i]) + 1;
-        console.log(text[i])
-    }
-    console.log(sum)
-    return sum;
+  result = 1;
+
+  for (let x = 4, y = 2; y <= n; y++, x += 3){
+    result += (1 / x);
+  }
+
+  return result.toFixed(2);
+
 }
 
-lettersum('excellent');
+console.log(SeriesSum(0))
+console.log(SeriesSum(1))
+console.log(SeriesSum(2))
+console.log(SeriesSum(3))
+// SeriesSum(3)
+
+
+// Test.assertEquals(SeriesSum(1), "1.00")
+// Test.assertEquals(SeriesSum(2), "1.25")
+// Test.assertEquals(SeriesSum(3), "1.39")
+// Test.assertEquals(SeriesSum(4), "1.49")
