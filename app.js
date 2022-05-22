@@ -1,34 +1,41 @@
-function SeriesSum(n)
-{
-  // Happy Coding ^_^
-  
-  let result = 0;
+var createError = require('http-errors');
+var express = require('express');
+var path = require('path');
+var cookieParser = require('cookie-parser');
+var logger = require('morgan');
 
-  if (n == 0) {
-    return result.toFixed(2)
-  } else if (n == 1) {
-    result = 1;
-    return result.toFixed(2)
-  }
+var indexRouter = require('./routes/index');
+var usersRouter = require('./routes/users');
 
-  result = 1;
+var app = express();
 
-  for (let x = 4, y = 2; y <= n; y++, x += 3){
-    result += (1 / x);
-  }
+// view engine setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
 
-  return result.toFixed(2);
+app.use(logger('dev'));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
 
-}
+app.use('/', indexRouter);
+app.use('/users', usersRouter);
 
-console.log(SeriesSum(0))
-console.log(SeriesSum(1))
-console.log(SeriesSum(2))
-console.log(SeriesSum(3))
-// SeriesSum(3)
+// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+  next(createError(404));
+});
 
+// error handler
+app.use(function(err, req, res, next) {
+  // set locals, only providing error in development
+  res.locals.message = err.message;
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
 
-// Test.assertEquals(SeriesSum(1), "1.00")
-// Test.assertEquals(SeriesSum(2), "1.25")
-// Test.assertEquals(SeriesSum(3), "1.39")
-// Test.assertEquals(SeriesSum(4), "1.49")
+  // render the error page
+  res.status(err.status || 500);
+  res.render('error');
+});
+
+module.exports = app;
