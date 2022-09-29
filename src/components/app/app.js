@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import nextId from "react-id-generator";
 import AppInfo from '../app-info/app-info';
 import SearchPanel from '../search-panel/search-panel';
 import AppFilter from '../app-filter/app-filter';
@@ -31,11 +32,32 @@ class App extends Component {
         },
       ]
     }
+    this.maxId = 4;
   }
 
   deleteItem = (id) => {
-    console.log(first)
+    this.setState(({data})=>{
+    return({
+        data: data.filter(item => item.id !== id)
+      })
+    });
+    
   }
+
+  addItem = (name, salary) => {
+    const newItem = {
+        name, 
+        salary,
+        increase: false,
+        id: this.maxId++
+    }
+    this.setState(({data}) => {
+        const newArr = [...data, newItem];
+        return {
+            data: newArr
+        }
+    });
+}
 
   render(){
     
@@ -47,8 +69,8 @@ class App extends Component {
           <SearchPanel />
           <AppFilter />
         </div>
-        <EmployeesList data={this.state.data} onDelete={id => console.log(id)}/>
-        <EmployeesAddForm />
+        <EmployeesList data={this.state.data} onDelete={this.deleteItem}/>
+        <EmployeesAddForm onAdd={this.addItem}/>
       </div>
     );
   }
