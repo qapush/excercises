@@ -1,41 +1,59 @@
-// Functions Exercises
+// Write class below
+class ShiftCipher{
+  constructor(shift){
+        this.codes = [];
+        this.shiftedCodes = [];
 
-// Minimum
+        for (let i = 97; i <= 122; i++){
+            this.codes.push(i);
+        }   
+      
+        for (let i = 97 + shift; i <= 122; i++){
+            this.shiftedCodes.push(i);
+        }   
+        for (let i = 97; i < 97 + shift; i++){
+            this.shiftedCodes.push(i);
+        }   
+  }
+ 
+  encrypt(str){
+    let res = '';
+    const word = str.toLowerCase();
 
-function min(a, b){
-    return a < b ? a : b;
-}
+    for (let i = 0; i < word.length; i++){
+      const index = this.codes.indexOf(word.charCodeAt(i));
 
-console.log(min(0, 10));
-console.log(min(0, -10));
-
-// Recursion
-
-function isEven(num){
-    switch(num){
-        case 0:
-            return true;
-            break;
-        case 1:
-            return false;
-            break;
-        default:
-            return isEven(num-2);
-            break;
-    }    
-}
-
-console.log(isEven(50));
-console.log(isEven(75));
-
-// Bean counting
-
-function countBs(str){
-    let j = '';
-    for(let i = 0; i < str.length; i++){
-        str[i] === 'B' ? j++ : null;
+      if (index === -1) {
+        res += word[i];
+      } else {
+        res += String.fromCharCode(this.shiftedCodes[index]).toUpperCase();
+      }
     }
-    return j;
-}   
+    return res;
+  }
 
-console.log(countBs("BBC"));
+  decrypt(str){
+    let res = '';
+    const word = str.toLowerCase();
+
+    for (let i = 0; i < word.length; i++){
+      const index = this.shiftedCodes.indexOf(word.charCodeAt(i));
+
+      if (index === -1) {
+        res += word[i];
+      } else {
+        res += String.fromCharCode(this.codes[index]);
+      }
+    }
+    return res;
+  }
+}
+
+const cipher = new ShiftCipher(2);
+console.log(cipher.encrypt('I love to code!')); // returns 'K NQXG VQ EQFG!'
+console.log(cipher.decrypt('K <3 OA RWRRA')); // returns 'i <3 my puppy'
+
+// console.log(cipher.encrypt('c')); // C
+
+
+// console.log(cipher.shiftedCodes);  
