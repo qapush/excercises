@@ -96,16 +96,42 @@ class Field {
         console.clear();
         this.print();
     }
+    
+    static generateField(w, h, p = 20){
+        const arr = [];
+
+        function addTheField(y, x, h, w, p) {
+            let res = fieldCharacter;
+            let holesToAdd = Math.floor(w * h * p / 100) - 1;
+            if(y !== 0 && x !== 0) {
+
+            }
+            console.log(holesToAdd);
+            return res;
+        }
+
+        for(let y = 0; y < h; y++){
+            arr.push([])
+            for(let x = 0; x < w; x++){
+                arr[y].push(addTheField(y, x, h, w, p));
+            }
+        }
+        return arr;
+    }
   }
     
-  const myField = new Field([
-    ['*', 'O', '░', '░', '░', '░'],
-    ['░', '░', '░', 'O', '░', 'O'],
-    ['O', 'O', 'O', '░', '░', '░'],
-    ['░', '^', '░', '░', '░', '░'],
-  ]);
+// const safeField = new Field([
+//     ['*', 'O', '░', '░', '░', '░'],
+//     ['░', '░', '░', 'O', '░', 'O'],
+//     ['O', 'O', 'O', '░', '░', '░'],
+//     ['░', '^', '░', '░', '░', '░'],
+//   ]);
 
-  myField.newGame();
+// safeField.newGame();
+
+const myField = new Field(Field.generateField(15,15, 3));
+myField.print();
+
 
 
 
