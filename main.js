@@ -9,9 +9,11 @@ const pathCharacter = '*';
 class Field {
     constructor(field){
         this.field = field;
-        this.position = [0, 0];
+        this.y = 0;
+        this.x = 0;
         this.win = false;
         this.lose = false;
+        this.message = 'Make a move entering r, l, d or u: ';
     }
   
     print(){
@@ -21,66 +23,85 @@ class Field {
     }
 
     newGame(){
-        
         console.clear();
         this.print();
 
         while(!this.win && !this.lose){
-            // Get user position input
-            const positionPrompt = String(prompt('Your position (r, l or d): ')).toLocaleLowerCase();
-            !this.win && !this.lose ? this.newMove(positionPrompt) : null ;
-
-        }
+            // Get user move input
+            const positionPrompt = String(prompt(this.message)).toLowerCase();
+            this.move(positionPrompt);
+        }        
     }
 
-
-
-    positionRight(){
-
-        if(this.position[0] == this.field.length - 1) {
-            this.loseFallOut();
-        } else {
-            this.position[0]++;
-            this.field[this.position[1]][this.position[0]] = '*';
-        }
-    }
-    
-
-    loseFallOut(){
-        this.lose = true;
-
-        console.log('Ooop, you\'ve falle out of the board :(');
-    }
-
-    newMove(positionPrompt){
-        this.print()
-
-        // Handle user input
+    move(positionPrompt){
+        // Make a move
         switch(positionPrompt){
             case 'r':
-                this.positionRight();
+                this.x++;
                 break;
             case 'l':
-                this.positionLeft();
+                this.x--;
                 break;
             case 'd':
-                this.positionDown();
+                this.y++;
+                break;
+            case 'u':
+                this.y--;
+                break;
+            default:
+                this.message = 'Invalid input 💥  Make a move entering r, l, d or u: '
                 break;
         }
+
+        // Check position
+        if(this.y < 0 || this.x < 0 || this.y ===  this.field.length || this.x === this.field[this.y].length) {
+            this.loseGame('fallOut');
+        } else if (this.field[this.y][this.x] === hole) {
+            this.loseGame('hole');
+        } else if (this.field[this.y][this.x] === pathCharacter){
+            this.moveBack();
+        } else if(this.field[this.y][this.x] === hat) {
+            this.winGame();
+        } else {
+            this.moveIsOk();
+        }
+
+    }
+    
+    loseGame(reason){
+        this.lose = true;
+        console.clear();
+        reason === 'fallOut' ? console.log('Ooops! You\'ve fallen out of the board 💔') : console.log('Ooops! You\'ve fallen into the hole 🌌');
+    }
+    moveBack(){
+        this.message = 'Sorry, you can\'t move backwards 😔  Make a move entering r, l, d or u: ';
+        console.clear();
+        this.print();
     }
 
+    winGame(){
+        this.win = true;
+        console.clear();
+        console.log('You\'ve found your hat! 🎩👒');
+    }
 
-
+    moveIsOk(){
+        this.field[this.y][this.x] = pathCharacter;
+        this.message = 'Make a move entering r, l, d or u: ';
+        console.clear();
+        this.print();
+    }
   }
-  
-  
+    
   const myField = new Field([
-    ['*', '░', 'O'],
-    ['░', 'O', '░'],
-    ['░', '^', '░'],
+    ['*', 'O', '░', '░', '░', '░'],
+    ['░', '░', '░', 'O', '░', 'O'],
+    ['O', 'O', 'O', '░', '░', '░'],
+    ['░', '^', '░', '░', '░', '░'],
   ]);
 
   myField.newGame();
+
 
 
 
