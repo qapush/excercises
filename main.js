@@ -24,7 +24,7 @@ class Field {
     }
 
     newGame(){
-        console.clear();
+        // console.clear();
         this.print();
 
         while(!this.win && !this.lose){
@@ -97,40 +97,35 @@ class Field {
         this.print();
     }
     
-    static generateField(w, h, p = 20){
-        const arr = [];
-
-        function addTheField(y, x, h, w, p) {
-            let res = fieldCharacter;
-            let holesToAdd = Math.floor(w * h * p / 100) - 1;
-            if(y !== 0 && x !== 0) {
-
-            }
-            console.log(holesToAdd);
-            return res;
+    static generateField(h, w, p = 20){
+        const field = [];
+        let arr = [];
+        let holesToAdd = Math.floor(w * h * p / 100);
+        // Add holes and field characters
+        for(let i = 0; i < w * h - 2; i++){
+            // -2 to leave a place for start and for a hat
+            let el = i <= holesToAdd ? hole : fieldCharacter;
+            arr.push(el) 
         }
-
-        for(let y = 0; y < h; y++){
-            arr.push([])
-            for(let x = 0; x < w; x++){
-                arr[y].push(addTheField(y, x, h, w, p));
-            }
+        // Add a hat
+        arr.push(hat);
+        // Shuffle
+        for(let i = 0; i < arr.length; i++){
+            let random = Math.floor(Math.random() * arr.length);
+            [arr[i], arr[random]] = [arr[random], arr[i]];
         }
-        return arr;
+        // Ass start at the beginning
+        arr.unshift(pathCharacter);
+        // Generate two dimentional field array
+        for(let i = 0; i < arr.length; i += w){
+            field.push(arr.slice(i, i + w))
+        }
+        return field;
     }
   }
-    
-// const safeField = new Field([
-//     ['*', 'O', '░', '░', '░', '░'],
-//     ['░', '░', '░', 'O', '░', 'O'],
-//     ['O', 'O', 'O', '░', '░', '░'],
-//     ['░', '^', '░', '░', '░', '░'],
-//   ]);
 
-// safeField.newGame();
-
-const myField = new Field(Field.generateField(15,15, 3));
-myField.print();
+const myField = new Field(Field.generateField(20,100, 10));
+myField.newGame();
 
 
 
