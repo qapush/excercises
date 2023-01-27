@@ -5,12 +5,13 @@ const hole = 'O';
 const fieldCharacter = '░';
 const pathCharacter = '*';
 
-
 class Field {
     constructor(field){
         this.field = field;
         this.y = 0;
         this.x = 0;
+        this.prevY = 0;
+        this.prevX = 0;
         this.win = false;
         this.lose = false;
         this.message = 'Make a move entering r, l, d or u: ';
@@ -34,6 +35,9 @@ class Field {
     }
 
     move(positionPrompt){
+        // Save previous position value in case of try ty move back
+        this.prevY = this.y;
+        this.prevX = this.x;
         // Make a move
         switch(positionPrompt){
             case 'r':
@@ -65,7 +69,6 @@ class Field {
         } else {
             this.moveIsOk();
         }
-
     }
     
     loseGame(reason){
@@ -75,6 +78,8 @@ class Field {
     }
     moveBack(){
         this.message = 'Sorry, you can\'t move backwards 😔  Make a move entering r, l, d or u: ';
+        this.y = this.prevY;
+        this.x = this.prevX;
         console.clear();
         this.print();
     }
