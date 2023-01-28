@@ -24,7 +24,7 @@ class Field {
     }
 
     newGame(){
-        // console.clear();
+        console.clear();
         this.print();
 
         while(!this.win && !this.lose){
@@ -124,7 +124,7 @@ class Field {
     }
   }
 
-const myField = new Field(Field.generateField(20,100, 10));
+const myField = new Field(Field.generateField(5,20, 25));
 myField.newGame();
 
 
