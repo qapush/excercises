@@ -1,0 +1,5136 @@
+{
+    "object": "list",
+    "results": [
+      {
+        "object": "page",
+        "id": "89f21376-08ab-4929-815b-daebff7022ea",
+        "created_time": "2023-01-07T15:06:00.000Z",
+        "last_edited_time": "2023-01-07T15:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "the-vast-of-night.jpg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d49e6a09-8281-4553-b42c-833ec85b6e41/the-vast-of-night.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=31ce5ebc6695012ee0bbf47fdd8f09220622235fc95adb28793b8c888cbe8825&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.553Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2019
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "a379578e-d6c4-41b4-9c4e-77ee4e9611f1",
+                "name": "Mystery",
+                "color": "pink"
+              },
+              {
+                "id": "227a14cd-93e3-42cc-8b08-8d04520c06a2",
+                "name": "Sci-Fi",
+                "color": "blue"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "The Vast of Night",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "The Vast of Night",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/The-Vast-of-Night-89f2137608ab4929815bdaebff7022ea"
+      },
+      {
+        "object": "page",
+        "id": "b54aadc4-a483-497f-85d2-67b6c53cae13",
+        "created_time": "2023-01-07T15:01:00.000Z",
+        "last_edited_time": "2023-01-07T15:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "undone.jpg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cbfb4b51-6c64-4d19-9b56-e0c95d0cc259/undone.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=c8c39186daa99b96542eafc0e0d2722eec0625aac0fb645eae106b47da3c90f6&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2019
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "9a63547a-56a6-4d0d-8fb6-25e48efa9f69",
+                "name": "FAV",
+                "color": "red"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "bc713534-b75b-436c-8ba1-12f4eca4a488",
+                "name": "Serial",
+                "color": "blue"
+              },
+              {
+                "id": "c6e40a9b-ad5d-4408-abba-fab4b64a89ca",
+                "name": "Animation",
+                "color": "orange"
+              },
+              {
+                "id": "227a14cd-93e3-42cc-8b08-8d04520c06a2",
+                "name": "Sci-Fi",
+                "color": "blue"
+              },
+              {
+                "id": "f4a1141e-ac42-4765-997b-ca2826b9e378",
+                "name": "Fantasy",
+                "color": "gray"
+              },
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Undone",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Undone",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Undone-b54aadc4a483497f85d267b6c53cae13"
+      },
+      {
+        "object": "page",
+        "id": "f9323ae2-748a-45e0-bc0a-e8a80316345d",
+        "created_time": "2023-01-07T14:56:00.000Z",
+        "last_edited_time": "2023-01-07T14:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "warning.jpg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cbaf31a0-46af-4d5a-876d-b39160e52488/warning.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=bf49312d127115d2829b504e752bf63f020e93c72eca1b2b939fb5e46ccbb394&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.549Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2021
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "227a14cd-93e3-42cc-8b08-8d04520c06a2",
+                "name": "Sci-Fi",
+                "color": "blue"
+              },
+              {
+                "id": "e1bd77aa-b0bd-4cb1-a68f-298ecd9cf188",
+                "name": "Thriller",
+                "color": "red"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Warning",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Warning",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Warning-f9323ae2748a45e0bc0ae8a80316345d"
+      },
+      {
+        "object": "page",
+        "id": "70109db1-10b7-4ebe-b3b5-6f6544a9ae47",
+        "created_time": "2022-10-10T12:10:00.000Z",
+        "last_edited_time": "2022-10-25T16:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "men.jpg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3c270024-e6a3-4cf1-89d0-91e5598cd711/men.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=2da0899f65548c425be109647f46a80ae85d84b5aa89a68795cd31c019a72380&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2022
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "319d45e9-a24a-4df0-9eec-6d5216c81169",
+                "name": "Horror",
+                "color": "green"
+              },
+              {
+                "id": "f4a1141e-ac42-4765-997b-ca2826b9e378",
+                "name": "Fantasy",
+                "color": "gray"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Men",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Men",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Men-70109db110b74ebeb3b56f6544a9ae47"
+      },
+      {
+        "object": "page",
+        "id": "24265557-f1ae-48ab-b888-97f7e15f6f45",
+        "created_time": "2022-10-10T12:09:00.000Z",
+        "last_edited_time": "2022-10-25T16:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "three-thousand-years-of-longing.jpg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/27463339-6f9d-4254-b351-ee559940a766/three-thousand-years-of-longing.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=15463a43fde5a03889a2e0e64cced72945a4cdb35605a351f89319a8814b2de6&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2022
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "ff9dc165-cb7d-4655-95ae-0a2c8b29b817",
+                "name": "Romance",
+                "color": "yellow"
+              },
+              {
+                "id": "f4a1141e-ac42-4765-997b-ca2826b9e378",
+                "name": "Fantasy",
+                "color": "gray"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Three Thousand Years of Longing",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Three Thousand Years of Longing",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Three-Thousand-Years-of-Longing-24265557f1ae48abb88897f7e15f6f45"
+      },
+      {
+        "object": "page",
+        "id": "e359632b-6a36-405e-8590-e6579ae07420",
+        "created_time": "2022-10-10T12:07:00.000Z",
+        "last_edited_time": "2022-10-25T16:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "X.jpg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/96deea9e-d328-4b11-97aa-0ab44f10561d/X.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=d65573f02e369d8b31d8e0351b2d6a2b324bf790e23cabb9ccb3a7e1a2590741&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2022
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "319d45e9-a24a-4df0-9eec-6d5216c81169",
+                "name": "Horror",
+                "color": "green"
+              },
+              {
+                "id": "a379578e-d6c4-41b4-9c4e-77ee4e9611f1",
+                "name": "Mystery",
+                "color": "pink"
+              },
+              {
+                "id": "e1bd77aa-b0bd-4cb1-a68f-298ecd9cf188",
+                "name": "Thriller",
+                "color": "red"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "X",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "X",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/X-e359632b6a36405e8590e6579ae07420"
+      },
+      {
+        "object": "page",
+        "id": "e7f0efe0-9283-465c-b807-9cef9c9d674f",
+        "created_time": "2022-10-10T12:05:00.000Z",
+        "last_edited_time": "2022-10-25T16:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "red-rocket.jpg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d8937073-e4e4-4d33-abea-4a803f93876e/red-rocket.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=5a0a227202f405c7782a8e094f8085763e1be9d1f47c1e47ec632b674a04a82b&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2021
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "13a5df1e-93af-476c-a7ec-dc55901d00f0",
+                "name": "Comedy",
+                "color": "default"
+              },
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Red Rocket",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Red Rocket",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Red-Rocket-e7f0efe09283465cb8079cef9c9d674f"
+      },
+      {
+        "object": "page",
+        "id": "44eeb29f-3180-4d26-99d9-aecfa066b71e",
+        "created_time": "2022-05-12T20:34:00.000Z",
+        "last_edited_time": "2022-10-25T16:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "low-tide.jpg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a0448383-aa09-469b-b972-5038f16fae3f/low-tide.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=057d864077e549ba454bec9163ce194cf3e66cd1e084f3e8a89c90fbe4ade27b&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.552Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2019
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "e1bd77aa-b0bd-4cb1-a68f-298ecd9cf188",
+                "name": "Thriller",
+                "color": "red"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Low Tide",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Low Tide",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Low-Tide-44eeb29f31804d2699d9aecfa066b71e"
+      },
+      {
+        "object": "page",
+        "id": "115a987a-1b55-47de-b5cf-63bfd8d69d83",
+        "created_time": "2022-05-10T21:23:00.000Z",
+        "last_edited_time": "2022-10-25T19:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "everything-everywhere-all-at-once.jpeg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1833ac10-a00a-4a69-9b1e-c8accc150577/everything-everywhere-all-at-once.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=45a497549b51afd1e421bad5e94953835423132a10c06122b6acbb8abf4dfc2d&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2022
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              },
+              {
+                "id": "9a63547a-56a6-4d0d-8fb6-25e48efa9f69",
+                "name": "FAV",
+                "color": "red"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "13a5df1e-93af-476c-a7ec-dc55901d00f0",
+                "name": "Comedy",
+                "color": "default"
+              },
+              {
+                "id": "227a14cd-93e3-42cc-8b08-8d04520c06a2",
+                "name": "Sci-Fi",
+                "color": "blue"
+              },
+              {
+                "id": "50930214-7880-46bf-9711-5ded6b938dc7",
+                "name": "Adventure",
+                "color": "pink"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Everything Everywhere All at Once",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Everything Everywhere All at Once",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Everything-Everywhere-All-at-Once-115a987a1b5547deb5cf63bfd8d69d83"
+      },
+      {
+        "object": "page",
+        "id": "48805483-ba43-49a9-8af8-2a7e7240a662",
+        "created_time": "2022-04-23T20:51:00.000Z",
+        "last_edited_time": "2022-10-25T19:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "mr-nobody.jpeg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cba72b19-127e-47db-a79d-674ab0ecce7b/mr-nobody.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=65d248755f0d36075b8377b05fed3d6659c7b72661884a669cf28ecb272b473b&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2009
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "f4a1141e-ac42-4765-997b-ca2826b9e378",
+                "name": "Fantasy",
+                "color": "gray"
+              },
+              {
+                "id": "ff9dc165-cb7d-4655-95ae-0a2c8b29b817",
+                "name": "Romance",
+                "color": "yellow"
+              },
+              {
+                "id": "227a14cd-93e3-42cc-8b08-8d04520c06a2",
+                "name": "Sci-Fi",
+                "color": "blue"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Mr Nobody",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Mr Nobody",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Mr-Nobody-48805483ba4349a98af82a7e7240a662"
+      },
+      {
+        "object": "page",
+        "id": "afa88d2e-0d0b-4805-bbf8-2b9301b08f6a",
+        "created_time": "2022-04-21T05:22:00.000Z",
+        "last_edited_time": "2022-10-25T19:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "the-lobster.jpeg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0a44da4f-19dc-48d2-8353-4781d3d1e1c5/the-lobster.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=9ea3970cd860ecab74f38f9ed4b886a71e7e34321a466eb3e4fba4ef9b2108e6&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.551Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2015
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "13a5df1e-93af-476c-a7ec-dc55901d00f0",
+                "name": "Comedy",
+                "color": "default"
+              },
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "ff9dc165-cb7d-4655-95ae-0a2c8b29b817",
+                "name": "Romance",
+                "color": "yellow"
+              },
+              {
+                "id": "227a14cd-93e3-42cc-8b08-8d04520c06a2",
+                "name": "Sci-Fi",
+                "color": "blue"
+              },
+              {
+                "id": "e1bd77aa-b0bd-4cb1-a68f-298ecd9cf188",
+                "name": "Thriller",
+                "color": "red"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "The Lobster ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "The Lobster ",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/The-Lobster-afa88d2e0d0b4805bbf82b9301b08f6a"
+      },
+      {
+        "object": "page",
+        "id": "a2196956-17b8-4364-8997-73fa8361d1c4",
+        "created_time": "2022-04-21T05:21:00.000Z",
+        "last_edited_time": "2022-10-25T19:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "the-lighthouse.jpeg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a53f4938-3ba2-4623-bf1e-16c8abddafe6/the-lighthouse.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=2cfa8676d4401cd21bf80e2175e3c35644543b42e79442f60d33f14f0e2881b5&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2019
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "f4a1141e-ac42-4765-997b-ca2826b9e378",
+                "name": "Fantasy",
+                "color": "gray"
+              },
+              {
+                "id": "319d45e9-a24a-4df0-9eec-6d5216c81169",
+                "name": "Horror",
+                "color": "green"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "The Lighthouse ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "The Lighthouse ",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/The-Lighthouse-a219695617b84364899773fa8361d1c4"
+      },
+      {
+        "object": "page",
+        "id": "79aa5303-dcfd-436c-aaa9-6edd28310efb",
+        "created_time": "2022-04-21T05:20:00.000Z",
+        "last_edited_time": "2022-10-25T19:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "the-green-knight.jpeg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0d7cf2aa-d98f-4673-9661-c98682b6114f/the-green-knight.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=3796ddf74ca056427c802b11ecf3cc85f55b43f66f34e3a5c3960e5ba94eb023&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2021
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "50930214-7880-46bf-9711-5ded6b938dc7",
+                "name": "Adventure",
+                "color": "pink"
+              },
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "f4a1141e-ac42-4765-997b-ca2826b9e378",
+                "name": "Fantasy",
+                "color": "gray"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "The Green Knight ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "The Green Knight ",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/The-Green-Knight-79aa5303dcfd436caaa96edd28310efb"
+      },
+      {
+        "object": "page",
+        "id": "43beded3-9057-406e-9f08-a5e2aeb9b585",
+        "created_time": "2022-04-21T05:19:00.000Z",
+        "last_edited_time": "2022-10-25T19:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "the-disaster-artist.jpeg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2ee6dfb9-68cc-4c42-beb7-30945f16d210/the-disaster-artist.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=cecbd619685d4f0262cb2ba2ef889c5e2aecde8a4c69fc422a1b6c829dea8cbc&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2017
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              },
+              {
+                "id": "9a63547a-56a6-4d0d-8fb6-25e48efa9f69",
+                "name": "FAV",
+                "color": "red"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f38d0343-554c-49d4-8655-0d416f30d4b1",
+                "name": "Biography",
+                "color": "brown"
+              },
+              {
+                "id": "13a5df1e-93af-476c-a7ec-dc55901d00f0",
+                "name": "Comedy",
+                "color": "default"
+              },
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "The Disaster Artist ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "The Disaster Artist ",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/The-Disaster-Artist-43beded39057406e9f08a5e2aeb9b585"
+      },
+      {
+        "object": "page",
+        "id": "8d2cd12b-a2ca-4035-9648-f04cdf045786",
+        "created_time": "2022-04-21T05:18:00.000Z",
+        "last_edited_time": "2022-04-21T05:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2016
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "13a5df1e-93af-476c-a7ec-dc55901d00f0",
+                "name": "Comedy",
+                "color": "default"
+              },
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "f4a1141e-ac42-4765-997b-ca2826b9e378",
+                "name": "Fantasy",
+                "color": "gray"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Swiss Army Man",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Swiss Army Man",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Swiss-Army-Man-8d2cd12ba2ca40359648f04cdf045786"
+      },
+      {
+        "object": "page",
+        "id": "4723d1e5-307a-40fc-b1dd-ea74c8974d0d",
+        "created_time": "2022-04-21T05:17:00.000Z",
+        "last_edited_time": "2022-04-21T05:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2021
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "319d45e9-a24a-4df0-9eec-6d5216c81169",
+                "name": "Horror",
+                "color": "green"
+              },
+              {
+                "id": "a379578e-d6c4-41b4-9c4e-77ee4e9611f1",
+                "name": "Mystery",
+                "color": "pink"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Lamb",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Lamb",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Lamb-4723d1e5307a40fcb1ddea74c8974d0d"
+      },
+      {
+        "object": "page",
+        "id": "6230e1e4-a834-4693-9980-578f83629acc",
+        "created_time": "2022-04-21T05:16:00.000Z",
+        "last_edited_time": "2022-04-21T05:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2017
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "a379578e-d6c4-41b4-9c4e-77ee4e9611f1",
+                "name": "Mystery",
+                "color": "pink"
+              },
+              {
+                "id": "319d45e9-a24a-4df0-9eec-6d5216c81169",
+                "name": "Horror",
+                "color": "green"
+              },
+              {
+                "id": "227a14cd-93e3-42cc-8b08-8d04520c06a2",
+                "name": "Sci-Fi",
+                "color": "blue"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "It Comes At Night ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "It Comes At Night ",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/It-Comes-At-Night-6230e1e4a83446939980578f83629acc"
+      },
+      {
+        "object": "page",
+        "id": "0128f78d-734d-4d2b-b214-3802f7437812",
+        "created_time": "2022-04-20T19:20:00.000Z",
+        "last_edited_time": "2022-04-20T19:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2019
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "13a5df1e-93af-476c-a7ec-dc55901d00f0",
+                "name": "Comedy",
+                "color": "default"
+              },
+              {
+                "id": "1dcc7fd0-b233-4af0-bfa4-5028375382d2",
+                "name": "Crime",
+                "color": "purple"
+              },
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "The Death of Dick Long",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "The Death of Dick Long",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/The-Death-of-Dick-Long-0128f78d734d4d2bb2143802f7437812"
+      },
+      {
+        "object": "page",
+        "id": "7526bb2b-d6b4-493b-af6e-7677d7ff51ad",
+        "created_time": "2022-04-20T19:19:00.000Z",
+        "last_edited_time": "2022-04-20T19:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2015
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "e1bd77aa-b0bd-4cb1-a68f-298ecd9cf188",
+                "name": "Thriller",
+                "color": "red"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Room",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Room",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Room-7526bb2bd6b4493baf6e7677d7ff51ad"
+      },
+      {
+        "object": "page",
+        "id": "8f0e76c7-7c21-4f1a-9c4d-47fdf4f3eb7b",
+        "created_time": "2022-04-20T19:17:00.000Z",
+        "last_edited_time": "2022-04-20T19:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2017
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "1dcc7fd0-b233-4af0-bfa4-5028375382d2",
+                "name": "Crime",
+                "color": "purple"
+              },
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "e1bd77aa-b0bd-4cb1-a68f-298ecd9cf188",
+                "name": "Thriller",
+                "color": "red"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Good Time",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Good Time",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Good-Time-8f0e76c77c214f1a9c4d47fdf4f3eb7b"
+      },
+      {
+        "object": "page",
+        "id": "2c5da7b9-3028-48bc-9378-b2477a15b607",
+        "created_time": "2022-04-20T19:16:00.000Z",
+        "last_edited_time": "2022-04-20T19:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2021
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "C'mon C'mon",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "C'mon C'mon",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/C-mon-C-mon-2c5da7b9302848bc9378b2477a15b607"
+      },
+      {
+        "object": "page",
+        "id": "f014e61d-3861-4726-a6bc-1e531ff8cf2a",
+        "created_time": "2022-04-20T19:11:00.000Z",
+        "last_edited_time": "2022-04-20T19:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2013
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "319d45e9-a24a-4df0-9eec-6d5216c81169",
+                "name": "Horror",
+                "color": "green"
+              },
+              {
+                "id": "a379578e-d6c4-41b4-9c4e-77ee4e9611f1",
+                "name": "Mystery",
+                "color": "pink"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Under the skin",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Under the skin",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Under-the-skin-f014e61d38614726a6bc1e531ff8cf2a"
+      },
+      {
+        "object": "page",
+        "id": "0d2f9a12-2da5-44cd-843b-a10a4195b8a8",
+        "created_time": "2022-04-20T19:09:00.000Z",
+        "last_edited_time": "2022-05-08T18:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2013
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "a379578e-d6c4-41b4-9c4e-77ee4e9611f1",
+                "name": "Mystery",
+                "color": "pink"
+              },
+              {
+                "id": "e1bd77aa-b0bd-4cb1-a68f-298ecd9cf188",
+                "name": "Thriller",
+                "color": "red"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Enemy",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Enemy",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Enemy-0d2f9a122da544cd843ba10a4195b8a8"
+      },
+      {
+        "object": "page",
+        "id": "1410c744-ec8a-42c2-a7d8-57965f99e4fa",
+        "created_time": "2022-04-20T19:05:00.000Z",
+        "last_edited_time": "2022-10-13T12:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2006
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "4705be84-c0b0-4008-aa62-50105c2d8d55",
+                "name": "Darren Aronofsky",
+                "color": "yellow"
+              },
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": false
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "a379578e-d6c4-41b4-9c4e-77ee4e9611f1",
+                "name": "Mystery",
+                "color": "pink"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "The Fountain",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "The Fountain",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/The-Fountain-1410c744ec8a42c2a7d857965f99e4fa"
+      },
+      {
+        "object": "page",
+        "id": "62bfb526-29b8-4eab-a5d6-112c2e5f05a7",
+        "created_time": "2022-04-20T19:02:00.000Z",
+        "last_edited_time": "2022-04-20T19:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2014
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "4705be84-c0b0-4008-aa62-50105c2d8d55",
+                "name": "Darren Aronofsky",
+                "color": "yellow"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Noah",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Noah",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Noah-62bfb52629b84eaba5d6112c2e5f05a7"
+      },
+      {
+        "object": "page",
+        "id": "baee0540-e484-43f0-a631-baa53591b2c7",
+        "created_time": "2022-04-20T06:07:00.000Z",
+        "last_edited_time": "2022-04-20T06:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2011
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f38d0343-554c-49d4-8655-0d416f30d4b1",
+                "name": "Biography",
+                "color": "brown"
+              },
+              {
+                "id": "13a5df1e-93af-476c-a7ec-dc55901d00f0",
+                "name": "Comedy",
+                "color": "default"
+              },
+              {
+                "id": "1dcc7fd0-b233-4af0-bfa4-5028375382d2",
+                "name": "Crime",
+                "color": "purple"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Bernie",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Bernie",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Bernie-baee0540e48443f0a631baa53591b2c7"
+      },
+      {
+        "object": "page",
+        "id": "cb39bab5-be72-4e06-b1e6-00dc5583c158",
+        "created_time": "2022-04-20T06:05:00.000Z",
+        "last_edited_time": "2022-10-31T07:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "equals.jpeg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/94242d12-3789-4dfa-b166-ffedeb73e09c/equals.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=be73eb6cbfe65e01bd34b67f97942fbf7ca0ae0bdd2df3d8fe9bc06af2195f64&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2015
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              },
+              {
+                "id": "9a63547a-56a6-4d0d-8fb6-25e48efa9f69",
+                "name": "FAV",
+                "color": "red"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "ff9dc165-cb7d-4655-95ae-0a2c8b29b817",
+                "name": "Romance",
+                "color": "yellow"
+              },
+              {
+                "id": "227a14cd-93e3-42cc-8b08-8d04520c06a2",
+                "name": "Sci-Fi",
+                "color": "blue"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Equals",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Equals",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Equals-cb39bab5be724e06b1e600dc5583c158"
+      },
+      {
+        "object": "page",
+        "id": "d0c6ea33-c9c6-4fae-9dbd-321ab7dbc606",
+        "created_time": "2022-04-12T05:31:00.000Z",
+        "last_edited_time": "2022-04-12T05:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2018
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "125a9ee1-077d-4729-9d77-e4b6251b853a",
+                "name": "Real events",
+                "color": "gray"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Backstabbing for Beginners",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Backstabbing for Beginners",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Backstabbing-for-Beginners-d0c6ea33c9c64fae9dbd321ab7dbc606"
+      },
+      {
+        "object": "page",
+        "id": "39da545b-4117-46d5-82fd-cc191ea06e63",
+        "created_time": "2022-04-07T10:07:00.000Z",
+        "last_edited_time": "2022-04-20T06:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2010
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "a379578e-d6c4-41b4-9c4e-77ee4e9611f1",
+                "name": "Mystery",
+                "color": "pink"
+              },
+              {
+                "id": "e1bd77aa-b0bd-4cb1-a68f-298ecd9cf188",
+                "name": "Thriller",
+                "color": "red"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Shutter Island",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Shutter Island",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Shutter-Island-39da545b411746d582fdcc191ea06e63"
+      },
+      {
+        "object": "page",
+        "id": "2da2dadd-4e14-42eb-8864-cebb9b5970ea",
+        "created_time": "2022-04-07T10:03:00.000Z",
+        "last_edited_time": "2022-04-07T10:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2006
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "a379578e-d6c4-41b4-9c4e-77ee4e9611f1",
+                "name": "Mystery",
+                "color": "pink"
+              },
+              {
+                "id": "e1bd77aa-b0bd-4cb1-a68f-298ecd9cf188",
+                "name": "Thriller",
+                "color": "red"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "The Prestige",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "The Prestige",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/The-Prestige-2da2dadd4e1442eb8864cebb9b5970ea"
+      },
+      {
+        "object": "page",
+        "id": "2b97fa5c-7f3e-47c0-a817-aec929b3a7da",
+        "created_time": "2022-04-07T10:00:00.000Z",
+        "last_edited_time": "2022-04-07T10:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2014
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Whiplash",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Whiplash",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Whiplash-2b97fa5c7f3e47c0a817aec929b3a7da"
+      },
+      {
+        "object": "page",
+        "id": "c313afee-4166-4659-ae0e-6d2808f8afe3",
+        "created_time": "2022-04-07T09:59:00.000Z",
+        "last_edited_time": "2022-04-07T10:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2021
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": false
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "ff9dc165-cb7d-4655-95ae-0a2c8b29b817",
+                "name": "Romance",
+                "color": "yellow"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Malcolm & Marie",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Malcolm & Marie",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Malcolm-Marie-c313afee41664659ae0e6d2808f8afe3"
+      },
+      {
+        "object": "page",
+        "id": "a5a5d9a0-b938-4e48-9a5a-f3356cca10b2",
+        "created_time": "2022-04-07T09:53:00.000Z",
+        "last_edited_time": "2023-01-07T15:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "it-follows.jpg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2ec17cab-e94a-4484-824a-aaf4a98cdabc/it-follows.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=0fead49e4e3afa5c99a245ee767405f3da3c89ad50518f2cbc9517535acdb295&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2014
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "319d45e9-a24a-4df0-9eec-6d5216c81169",
+                "name": "Horror",
+                "color": "green"
+              },
+              {
+                "id": "a379578e-d6c4-41b4-9c4e-77ee4e9611f1",
+                "name": "Mystery",
+                "color": "pink"
+              },
+              {
+                "id": "e1bd77aa-b0bd-4cb1-a68f-298ecd9cf188",
+                "name": "Thriller",
+                "color": "red"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "It Follows",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "It Follows",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/It-Follows-a5a5d9a0b9384e489a5af3356cca10b2"
+      },
+      {
+        "object": "page",
+        "id": "bc228800-a699-4f30-b9a6-19ce62cfab0e",
+        "created_time": "2022-04-07T09:49:00.000Z",
+        "last_edited_time": "2022-04-07T09:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2017
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "4705be84-c0b0-4008-aa62-50105c2d8d55",
+                "name": "Darren Aronofsky",
+                "color": "yellow"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "319d45e9-a24a-4df0-9eec-6d5216c81169",
+                "name": "Horror",
+                "color": "green"
+              },
+              {
+                "id": "a379578e-d6c4-41b4-9c4e-77ee4e9611f1",
+                "name": "Mystery",
+                "color": "pink"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Mother!",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Mother!",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Mother-bc228800a6994f30b9a619ce62cfab0e"
+      },
+      {
+        "object": "page",
+        "id": "084a0993-eb31-4cf2-91de-459e191ad55f",
+        "created_time": "2022-04-07T09:17:00.000Z",
+        "last_edited_time": "2022-04-07T09:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2021
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "13a5df1e-93af-476c-a7ec-dc55901d00f0",
+                "name": "Comedy",
+                "color": "default"
+              },
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "ff9dc165-cb7d-4655-95ae-0a2c8b29b817",
+                "name": "Romance",
+                "color": "yellow"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Licorice Pizza",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Licorice Pizza",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Licorice-Pizza-084a0993eb314cf291de459e191ad55f"
+      },
+      {
+        "object": "page",
+        "id": "957921a1-8811-4bfc-92ee-625076197681",
+        "created_time": "2022-04-07T09:16:00.000Z",
+        "last_edited_time": "2023-01-07T15:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "arrival.jpg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c60cec93-4fb4-4b5f-82bc-bd8537c37ba4/arrival.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=9e5eed92a82e34d6d6aa93789fe46f12662c4087ad847981ca9a6280fe090f76&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2016
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "9a63547a-56a6-4d0d-8fb6-25e48efa9f69",
+                "name": "FAV",
+                "color": "red"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "227a14cd-93e3-42cc-8b08-8d04520c06a2",
+                "name": "Sci-Fi",
+                "color": "blue"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Arrival",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Arrival",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Arrival-957921a188114bfc92ee625076197681"
+      },
+      {
+        "object": "page",
+        "id": "43871105-ac72-469d-8850-340f340150a7",
+        "created_time": "2022-04-04T07:45:00.000Z",
+        "last_edited_time": "2022-10-31T07:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "no-country-for-old-men.jpeg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f557ab35-0511-498d-af13-d2c31e8dcc9c/no-country-for-old-men.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=b6242dc53371987db488738ea3ddfefd71ec45aef9d48c68a317f373bb0af6da&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2007
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "9ab580dc-0337-466e-8b46-0da94434b488",
+                "name": "Coen",
+                "color": "green"
+              },
+              {
+                "id": "9a63547a-56a6-4d0d-8fb6-25e48efa9f69",
+                "name": "FAV",
+                "color": "red"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "1dcc7fd0-b233-4af0-bfa4-5028375382d2",
+                "name": "Crime",
+                "color": "purple"
+              },
+              {
+                "id": "e1bd77aa-b0bd-4cb1-a68f-298ecd9cf188",
+                "name": "Thriller",
+                "color": "red"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "No Country for Old Men",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "No Country for Old Men",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/No-Country-for-Old-Men-43871105ac72469d8850340f340150a7"
+      },
+      {
+        "object": "page",
+        "id": "8ba5f61b-8292-4dfb-b721-e68c34735433",
+        "created_time": "2022-04-04T07:44:00.000Z",
+        "last_edited_time": "2022-04-07T09:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2011
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": false
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Shame",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Shame",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Shame-8ba5f61b82924dfbb721e68c34735433"
+      },
+      {
+        "object": "page",
+        "id": "ae432f1c-3382-4be2-a187-68220190b315",
+        "created_time": "2022-04-04T07:44:00.000Z",
+        "last_edited_time": "2022-04-07T09:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2004
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": false
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "ff9dc165-cb7d-4655-95ae-0a2c8b29b817",
+                "name": "Romance",
+                "color": "yellow"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Nine songs",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Nine songs",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Nine-songs-ae432f1c33824be2a18768220190b315"
+      },
+      {
+        "object": "page",
+        "id": "a88d5369-7f65-4747-9a70-aa46904ed94a",
+        "created_time": "2022-03-31T09:35:00.000Z",
+        "last_edited_time": "2022-10-15T21:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2019
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "1dcc7fd0-b233-4af0-bfa4-5028375382d2",
+                "name": "Crime",
+                "color": "purple"
+              },
+              {
+                "id": "a379578e-d6c4-41b4-9c4e-77ee4e9611f1",
+                "name": "Mystery",
+                "color": "pink"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Under the Silver Lake",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Under the Silver Lake",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Under-the-Silver-Lake-a88d53697f6547479a70aa46904ed94a"
+      },
+      {
+        "object": "page",
+        "id": "abd7b4c9-4897-4944-9ca5-11e6fc977fdd",
+        "created_time": "2022-03-31T09:33:00.000Z",
+        "last_edited_time": "2023-01-07T15:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "ex-machina.jpg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ad3135fe-715f-43bb-933a-3b8bff5473af/ex-machina.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=6ffcac19f2bea2b5845769b69b059e89171dea648ebdc05459562a3dba266134&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.552Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2015
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              },
+              {
+                "id": "9a63547a-56a6-4d0d-8fb6-25e48efa9f69",
+                "name": "FAV",
+                "color": "red"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "227a14cd-93e3-42cc-8b08-8d04520c06a2",
+                "name": "Sci-Fi",
+                "color": "blue"
+              },
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Ex Machina",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Ex Machina",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Ex-Machina-abd7b4c9489749449ca511e6fc977fdd"
+      },
+      {
+        "object": "page",
+        "id": "3357017e-d938-49a8-bd74-f9c745e15dca",
+        "created_time": "2022-03-31T09:17:00.000Z",
+        "last_edited_time": "2022-04-20T06:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2017
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "A Ghost Story",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "A Ghost Story",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/A-Ghost-Story-3357017ed93849a8bd74f9c745e15dca"
+      },
+      {
+        "object": "page",
+        "id": "f8b9e686-2111-4a24-84ef-f174d31da4eb",
+        "created_time": "2022-03-31T09:17:00.000Z",
+        "last_edited_time": "2022-10-16T07:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2018
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              },
+              {
+                "id": "895a51b0-122a-436b-8280-23da497478f2",
+                "name": "Gaspar Noe",
+                "color": "gray"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "319d45e9-a24a-4df0-9eec-6d5216c81169",
+                "name": "Horror",
+                "color": "green"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Climax",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Climax",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Climax-f8b9e68621114a2484eff174d31da4eb"
+      },
+      {
+        "object": "page",
+        "id": "34f09ff3-9850-4b54-965e-c0b48a69bbde",
+        "created_time": "2022-03-31T09:14:00.000Z",
+        "last_edited_time": "2022-03-31T09:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2014
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "9a63547a-56a6-4d0d-8fb6-25e48efa9f69",
+                "name": "FAV",
+                "color": "red"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "227a14cd-93e3-42cc-8b08-8d04520c06a2",
+                "name": "Sci-Fi",
+                "color": "blue"
+              },
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Interstellar",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Interstellar",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Interstellar-34f09ff398504b54965ec0b48a69bbde"
+      },
+      {
+        "object": "page",
+        "id": "ba2dacf9-eeb5-40d2-aa91-9a97368f26b4",
+        "created_time": "2022-03-31T09:13:00.000Z",
+        "last_edited_time": "2023-01-07T15:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "the-witch.jpg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bdaf4fc9-773f-4f39-a7c0-411a14511364/the-witch.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=49a013fed05e85ce572cf2faae983af322e34fa92413eb7735ebabc434bf1393&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.553Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2015
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "319d45e9-a24a-4df0-9eec-6d5216c81169",
+                "name": "Horror",
+                "color": "green"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "The VVitch: A New-England Folktale",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "The VVitch: A New-England Folktale",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/The-VVitch-A-New-England-Folktale-ba2dacf9eeb540d2aa919a97368f26b4"
+      },
+      {
+        "object": "page",
+        "id": "d2c9e01a-f1a9-4740-b1d8-0a75fbd224aa",
+        "created_time": "2022-03-31T09:12:00.000Z",
+        "last_edited_time": "2022-03-31T09:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2009
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "9ab580dc-0337-466e-8b46-0da94434b488",
+                "name": "Coen",
+                "color": "green"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "13a5df1e-93af-476c-a7ec-dc55901d00f0",
+                "name": "Comedy",
+                "color": "default"
+              },
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "A Serious Man",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "A Serious Man",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/A-Serious-Man-d2c9e01af1a94740b1d80a75fbd224aa"
+      },
+      {
+        "object": "page",
+        "id": "d9b72d29-b794-4b5c-8f6b-c4c09e24e3ae",
+        "created_time": "2022-03-31T09:11:00.000Z",
+        "last_edited_time": "2022-10-31T07:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "hail-caesar.jpeg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d2e25315-bb54-4755-ba11-8f94a16da4fc/hail-caesar.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=78eb9c79258bf6f86a3115a9ee0214c728934e18abf03620c2dfebdd4e011bb2&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2016
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "9ab580dc-0337-466e-8b46-0da94434b488",
+                "name": "Coen",
+                "color": "green"
+              },
+              {
+                "id": "9a63547a-56a6-4d0d-8fb6-25e48efa9f69",
+                "name": "FAV",
+                "color": "red"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "13a5df1e-93af-476c-a7ec-dc55901d00f0",
+                "name": "Comedy",
+                "color": "default"
+              },
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              },
+              {
+                "id": "a379578e-d6c4-41b4-9c4e-77ee4e9611f1",
+                "name": "Mystery",
+                "color": "pink"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Hail, Caesar!",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Hail, Caesar!",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Hail-Caesar-d9b72d29b7944b5c8f6bc4c09e24e3ae"
+      },
+      {
+        "object": "page",
+        "id": "19b01e7a-4bd6-41a8-aab0-80a7794c4065",
+        "created_time": "2022-03-31T09:01:00.000Z",
+        "last_edited_time": "2022-10-16T07:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2021
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "9ab580dc-0337-466e-8b46-0da94434b488",
+                "name": "Coen",
+                "color": "green"
+              },
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": false
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "The Tragedy of Macbeth",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "The Tragedy of Macbeth",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/The-Tragedy-of-Macbeth-19b01e7a4bd641a8aab080a7794c4065"
+      },
+      {
+        "object": "page",
+        "id": "172c2094-07a2-4e79-9832-d23b40390602",
+        "created_time": "2022-03-31T08:59:00.000Z",
+        "last_edited_time": "2022-10-31T07:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "burn-after-reading.jpeg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/80e2dac1-f4aa-4480-99f2-3a04adde0ccc/burn-after-reading.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=d2ade8a8ecf4cbc418822bcbc40ae76158bea7d04f4bf1984949224be90e7dbd&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2008
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "9ab580dc-0337-466e-8b46-0da94434b488",
+                "name": "Coen",
+                "color": "green"
+              },
+              {
+                "id": "9a63547a-56a6-4d0d-8fb6-25e48efa9f69",
+                "name": "FAV",
+                "color": "red"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "13a5df1e-93af-476c-a7ec-dc55901d00f0",
+                "name": "Comedy",
+                "color": "default"
+              },
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Burn After Reading",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Burn After Reading",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Burn-After-Reading-172c209407a24e799832d23b40390602"
+      },
+      {
+        "object": "page",
+        "id": "93644c6f-3887-414c-ab9c-1a5f874d983d",
+        "created_time": "2022-03-31T08:59:00.000Z",
+        "last_edited_time": "2022-10-31T07:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "suburbicon.jpeg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/01ecd1ba-4f02-45d7-b923-0f063af2649f/suburbicon.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=dcf8b473480844bf9f602537ca82f82e3f38850dbce5dbdeb615fb2ed7d58ec4&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2017
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "9ab580dc-0337-466e-8b46-0da94434b488",
+                "name": "Coen",
+                "color": "green"
+              },
+              {
+                "id": "9a63547a-56a6-4d0d-8fb6-25e48efa9f69",
+                "name": "FAV",
+                "color": "red"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "13a5df1e-93af-476c-a7ec-dc55901d00f0",
+                "name": "Comedy",
+                "color": "default"
+              },
+              {
+                "id": "1dcc7fd0-b233-4af0-bfa4-5028375382d2",
+                "name": "Crime",
+                "color": "purple"
+              },
+              {
+                "id": "f97441c4-7f78-48df-9388-9469b8e73f72",
+                "name": "Drama",
+                "color": "orange"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Suburbicon",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Suburbicon",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Suburbicon-93644c6f3887414cab9c1a5f874d983d"
+      },
+      {
+        "object": "page",
+        "id": "1e6e3b20-1613-4469-98fb-785e8d50b674",
+        "created_time": "2022-03-31T08:35:00.000Z",
+        "last_edited_time": "2022-04-12T05:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2019
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "a379578e-d6c4-41b4-9c4e-77ee4e9611f1",
+                "name": "Mystery",
+                "color": "pink"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Vivarium",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Vivarium",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Vivarium-1e6e3b201613446998fb785e8d50b674"
+      },
+      {
+        "object": "page",
+        "id": "2f37b523-a97a-45ae-becb-ddc6b41cf22e",
+        "created_time": "2022-03-31T08:32:00.000Z",
+        "last_edited_time": "2022-03-31T09:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2018
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "319d45e9-a24a-4df0-9eec-6d5216c81169",
+                "name": "Horror",
+                "color": "green"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Hereditary",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Hereditary",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Hereditary-2f37b523a97a45aebecbddc6b41cf22e"
+      },
+      {
+        "object": "page",
+        "id": "bd92b0e8-c1c0-40e4-af40-be3c1171ca42",
+        "created_time": "2022-03-31T08:31:00.000Z",
+        "last_edited_time": "2022-10-31T07:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "a2e4cd8a-1eb2-4da6-9680-492be1171b75"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "ac175d0f-2a27-4aba-8d75-0f0426369b43"
+        },
+        "archived": false,
+        "properties": {
+          "Poster": {
+            "id": "%3FEBp",
+            "type": "files",
+            "files": [
+              {
+                "name": "midsommar.jpeg",
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/45fb3119-b61e-4e83-ac00-fd05cc39eda6/midsommar.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230213T181748Z&X-Amz-Expires=3600&X-Amz-Signature=7e7f67de4e2184c2a37c71b7a565f0b844d46dc4b85e5523598359a3a1476024&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2023-02-13T19:17:48.550Z"
+                }
+              }
+            ]
+          },
+          "Year": {
+            "id": "TojJ",
+            "type": "number",
+            "number": 2019
+          },
+          "Tags": {
+            "id": "ec%3Be",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "65d2f95d-e759-4396-be8e-875d4f300fe6",
+                "name": "A24",
+                "color": "brown"
+              },
+              {
+                "id": "9a63547a-56a6-4d0d-8fb6-25e48efa9f69",
+                "name": "FAV",
+                "color": "red"
+              }
+            ]
+          },
+          "Seen": {
+            "id": "zFvy",
+            "type": "checkbox",
+            "checkbox": true
+          },
+          "Genre": {
+            "id": "~%5BLP",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "319d45e9-a24a-4df0-9eec-6d5216c81169",
+                "name": "Horror",
+                "color": "green"
+              },
+              {
+                "id": "a379578e-d6c4-41b4-9c4e-77ee4e9611f1",
+                "name": "Mystery",
+                "color": "pink"
+              }
+            ]
+          },
+          "Title": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Midsommar",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Midsommar",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/Midsommar-bd92b0e8c1c040e4af40be3c1171ca42"
+      }
+    ],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "page",
+    "page": {
+      
+    }
+  }
