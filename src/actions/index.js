@@ -17,6 +17,13 @@ export const heroesFetchingError = () => {
     }
 }
 
+export const addHero = (hero) => {
+    return {
+        type: 'HEROES_ADDHERO',
+        payload: hero
+    }
+}
+
 export const removeHero = (id) => {
     return {
         type: 'HEROES_REMOVEHERO',
@@ -28,5 +35,12 @@ export const filtersFetched = (filters) => {
     return {
         type: 'FILTERS_FETCHED',
         payload: filters
+    }
+}
+
+export const activeFilterSet = (filter) => {
+    return {
+        type: 'ACTIVE_FILTER_SET',
+        payload: filter
     }
 }

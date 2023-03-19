@@ -1,28 +1,28 @@
 {
   "heroes": [
     {
-      "id": 1,
-      "name": "Первый герой",
-      "description": "Первый герой в рейтинге!",
-      "element": "fire"
+      "name": "asdasd",
+      "description": "asdsad",
+      "element": "water",
+      "id": "d4ea2f22-4ed2-4370-8970-60387abf587d"
     },
     {
-      "id": 2,
-      "name": "Неизвестный герой",
-      "description": "Скрывающийся в тени",
-      "element": "wind"
+      "name": "asdadd",
+      "description": "asdasd",
+      "element": "wind",
+      "id": "4afc08e7-5148-4387-94f1-3e56e056ad8f"
     },
     {
-      "id": 3,
-      "name": "Морской герой",
-      "description": "Как аквамен, но не из DC",
-      "element": "water"
+      "name": "gbbg",
+      "description": "gbgb",
+      "element": "fire",
+      "id": "f30d9b99-ca7d-42aa-b134-ebe295bea1e9"
     },
     {
-      "id": 4,
-      "name": "Морской герой",
-      "description": "Как аквамен, но не из DC",
-      "element": "water"
+      "name": "gfh545t",
+      "description": "45646",
+      "element": "earth",
+      "id": "96f5dc6d-cd82-4313-9a29-65c17db387b6"
     }
   ],
   "filters": [
@@ -47,5 +47,4 @@
       "ru": "Земля"
     }
   ]
-
 }
