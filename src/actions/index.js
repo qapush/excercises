@@ -23,3 +23,10 @@ export const removeHero = (id) => {
         payload: id
     }
 }
+
+export const filtersFetched = (filters) => {
+    return {
+        type: 'FILTERS_FETCHED',
+        payload: filters
+    }
+}

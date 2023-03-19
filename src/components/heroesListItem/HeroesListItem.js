@@ -1,10 +1,18 @@
 import { useDispatch } from 'react-redux';
 import { removeHero } from '../../actions';
+import {useHttp} from '../../hooks/http.hook';
 
 const HeroesListItem = ({name, description, element, id}) => {
 
     const dispatch = useDispatch();
     let elementClassName;
+    const {request} = useHttp();
+    const handleDelete = () => {
+        request(`http://localhost:3001/heroes/${id}`, 'DELETE')
+        .then(data => dispatch(removeHero(id)))
+        .catch((e) => console.log(e))
+        
+    }
 
     switch (element) {
         case 'fire':
@@ -36,7 +44,7 @@ const HeroesListItem = ({name, description, element, id}) => {
                 <p className="card-text">{description}</p>
             </div>
             <span className="position-absolute top-0 start-100 translate-middle badge border rounded-pill bg-light">
-                <button type="button" className="btn-close btn-close" aria-label="Close" onClick={ () => dispatch(removeHero(id))}></button>
+                <button type="button" className="btn-close btn-close" aria-label="Close" onClick={ handleDelete }></button>
             </span>
         </li>
     )

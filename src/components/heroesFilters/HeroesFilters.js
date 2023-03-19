@@ -6,17 +6,54 @@
 // Изменять json-файл для удобства МОЖНО!
 // Представьте, что вы попросили бэкенд-разработчика об этом
 
+import { useEffect } from "react";
+import { useHttp } from "../../hooks/http.hook";
+import { useSelector, useDispatch } from "react-redux";
+import { filtersFetched } from "../../actions";
+import classNames from "classnames";
+import Spinner from "../spinner/Spinner";
+
 const HeroesFilters = () => {
+    
+    const dispatch = useDispatch();
+    const { filters, activeFilter } = useSelector(state => state)
+    const { request } = useHttp();
+    let filtersList;
+
+    useEffect(() => {
+        request('http://localhost:3001/filters')
+            .then(filters => dispatch(filtersFetched(filters)))
+            .catch( e => console.log(e))
+    }, [])
+
+    if(filters.length === 0) {
+        return <Spinner/>
+    }
+
+    filtersList = filters.map(({name, ru}) => {
+
+        const className = classNames(
+            'btn', 
+            {
+                'btn-outline-dark': name === 'all',
+                'btn-danger': name === 'fire',
+                'btn-primary': name === 'water',
+                'btn-success': name === 'wind',
+                'btn-secondary': name === 'earth',
+                'active': activeFilter === name
+            }
+        )
+
+        return <button key={name} className={className}>{ru}</button>
+    })
+     
+
     return (
         <div className="card shadow-lg mt-4">
             <div className="card-body">
                 <p className="card-text">Отфильтруйте героев по элементам</p>
                 <div className="btn-group">
-                    <button className="btn btn-outline-dark active">Все</button>
-                    <button className="btn btn-danger">Огонь</button>
-                    <button className="btn btn-primary">Вода</button>
-                    <button className="btn btn-success">Ветер</button>
-                    <button className="btn btn-secondary">Земля</button>
+                    {filtersList}
                 </div>
             </div>
         </div>
