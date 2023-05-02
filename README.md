@@ -1,1 +1,1 @@
-This is test project with hero admin panel!
+Repository created to do and commit different exercises
